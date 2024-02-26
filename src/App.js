@@ -41,8 +41,8 @@ const MenuBar = () => {
             <a href="https://lin.ee/BPI4HRC" target="_blank" rel="noopener noreferrer" className="mr-3 text-black hover:text-brand_blue">
               <img className="w-8" src="line.png" alt="Line Icon"></img>
             </a>
-          <a href="https://www.facebook.com/profile.php?id=100086760594011" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2">
-              <img className="w-10" src="telephone.png" alt="FB Icon"></img>
+          <a href="tel:+886922783563" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2">
+              <img className="w-10" src="telephone.png" alt="Phone Icon"></img>
             </a>
         </div>
       </div>
@@ -117,7 +117,7 @@ const Section = () => {
     <div className="mt-12 md:mt-18 h-1/2 flex-col items-center justify-center">
         <h1 className="text-2xl md:text-3xl tracking-wide font-serif text-center font-bold">詠珍文旅 澎湖最乾淨的民宿</h1>
         {/* eslint-disable-next-line*/}
-        <p className='mt-4 md:mt-6 md:text-xl text-center tracking-wider'> 給你旅行的靜謐  <span className="mx-2">|</span> 給你飯店的舒適   <span className="mx-2">｜</span> 給你慢慢的回憶 </p>
+        <p className='m-4 md:mt-6 md:text-xl text-center tracking-wider'> 給你旅行的靜謐  <span className="mx-2">|</span> 給你飯店的舒適   <span className="mx-2">｜</span> 給你慢慢的回憶 </p>
     </div>
     <div className='mt-6 md:mt-8 flex m-auto'>
       <a className='m-auto' href='https://lin.ee/BPI4HRC' target='_blanket'><button className=' tracking-widest px-6 py-2  bg-brand_blue text-white'>立即訂房</button></a>
@@ -254,6 +254,3 @@ const Footer = () =>{
 }
 
 
-
-
-// export default App;
