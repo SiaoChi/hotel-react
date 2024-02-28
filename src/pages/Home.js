@@ -57,7 +57,7 @@ const Hero = () => {
        <HeroPic text="日式和室四人房" picture_path="rooms/4-L/4-lg-1.png" />
        <HeroPic text="寬敞家庭四人房" picture_path="rooms/4-L/4-lg-2.png" />
        <HeroPic text="詠珍文旅 會再訪的旅宿" picture_path="rooms/lobby.png" />
-       <HeroPic text="澎湖花火節 歡迎您" picture_path="rooms/4-L/4-lg-1-1.png" />
+       <HeroPic text="澎湖花火節 歡迎入住" picture_path="rooms/4-L/4-lg-1-1.png" />
       </Slider>
     </div>
   );
