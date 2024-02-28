@@ -76,14 +76,14 @@ const PageRoom3 = () =>{
 const PageRoom2 = () =>{
     return (
     <div className="max-w-screen-2xl mx-auto mt-16">
-        <HeroPic picture_path="/rooms/2-1/2-1.png" />
+        <HeroPic picture_path="/rooms/2-2/2-2-hero.png" />
         <RoomDescription title="二樓雙人房型" description="兩張單人床、獨立衛浴、小陽台、梳妝椅、液晶電視、吹風機"/>
-        <RoomSection imgPath1='/rooms/2-1/2-1-400x400.png' imgPath2='/rooms/2-1/2-1-400x400.png' imgPath3='/rooms/2-1/2-1-400x400.png' />
+        <RoomSection imgPath1='/rooms/2-2/2-2-1.png' imgPath2='/rooms/2-2/2-2-4.png' imgPath3='/rooms/2-2/2-2-3.png' />
     </div>
         )
 }
       
-      const PageRoom5 = () =>{
+const PageRoom5 = () =>{
         return (
     <div className="max-w-screen-2xl mx-auto mt-16">
        <HeroPic picture_path="/rooms/4-S/4s-hero.png" />
