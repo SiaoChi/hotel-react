@@ -8,7 +8,7 @@ const QAItem = ({ question, answer }) => {
   };
 
   return (
-    <div className="mt-2 mx-auto w-[380px] md:w-[800px] bg-white p-4" onClick={toggleAnswer}>
+    <div className="mt-2 mx-auto w-[380px] md:w-[800px] bg-white p-4 border" onClick={toggleAnswer}>
       <div className="flex items-center justify-between">
         <h3 className="text-lg font-semibold">{question}</h3>
         <button
