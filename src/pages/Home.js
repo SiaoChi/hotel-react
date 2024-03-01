@@ -72,7 +72,7 @@ const Description = () => {
         <p className='m-4 md:mt-6 md:text-xl text-center tracking-wider'> 給你旅行的靜謐  <span className="mx-2">|</span> 給你飯店的舒適   <span className="mx-2">｜</span> 給你慢慢的回憶 </p>
     </div>
     <div className='mt-6 md:mt-8 flex m-auto'>
-      <a className='m-auto' href='https://lin.ee/BPI4HRC' target='_blanket'><button className='hover:bg-white hover:bolder hover:text-brand_blue tracking-widest px-6 py-2  bg-brand_blue text-white'>立即訂房</button></a>
+      <a className='m-auto line-btn' href='https://lin.ee/BPI4HRC' target='_blanket'><button className='hover:bg-white hover:bolder hover:text-brand_blue tracking-widest px-6 py-2  bg-brand_blue text-white'>立即訂房</button></a>
     </div>
     </>
   )
@@ -186,7 +186,7 @@ export const Contact = () => {
         <p className='md:text-xl text-center tracking-wider'>  澎湖縣｜馬公市西衛里367-3號 </p>
         <p className='md:text-xl text-center tracking-wider mt-2'>  0922-783-563 </p>
         <div className='mt-4 flex m-auto'>
-          <a className='m-auto' href='https://lin.ee/BPI4HRC' target='_blanket'><button className='hover:bg-white hover:border hover:border-brand_blue hover:text-brand_blue tracking-widest px-6 py-2  bg-brand_blue text-white'>LINE 線上客服</button></a>
+          <a className='m-auto line-btn'  href='https://lin.ee/BPI4HRC' target='_blanket'><button className='hover:bg-white hover:border hover:border-brand_blue hover:text-brand_blue tracking-widest px-6 py-2  bg-brand_blue text-white'>LINE 線上客服</button></a>
         </div>
       </div>  
 

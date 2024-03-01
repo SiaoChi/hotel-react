@@ -29,10 +29,10 @@ const MenuBar = () => {
         </div>
 
         <div className="flex items-center ml-auto">
-            <a href="https://www.facebook.com/profile.php?id=100086760594011" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2">
+            <a href="https://www.facebook.com/profile.php?id=100086760594011" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2 fb-btn">
               <img className="w-8 md:w-10" src="/facebook.png" alt="FB Icon"></img>
             </a>
-            <a href="https://lin.ee/BPI4HRC" target="_blank" rel="noopener noreferrer" className="mr-3 text-black hover:text-brand_blue">
+            <a  href="https://lin.ee/BPI4HRC" target="_blank" rel="noopener noreferrer" className="line-btn mr-3 text-black hover:text-brand_blue">
               <img className="w-6 md:w-8" src="/line.png" alt="Line Icon"></img>
             </a>
         </div>
