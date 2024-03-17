@@ -142,6 +142,14 @@ export const QA = () => {
         answer="每間房型不同，歡迎加入LINE好友直接詢價唷。"
       />
       <QAItem
+        question="預訂要支付多少訂金？"
+        answer="訂房需要支付總房價的三成訂金，其餘費用到民宿再支付現金，或是現場匯款即可。"
+      />
+      <QAItem
+        question="可以使用信用卡嗎？"
+        answer="不好意思，目前尚未提供信用卡刷卡服務，以現金匯款為主。"
+      />
+      <QAItem
         question="可以包棟嗎？"
         answer="可以，包棟請直接LINE我們人數、日期，我們會在因應進行報價唷。"
       />
@@ -167,7 +175,7 @@ export const QA = () => {
         />
       <QAItem
         question="有附早餐嗎？"
-        answer="房價不含早餐，早餐可選擇另外加價100元/人。"
+        answer="房價不含早餐，早餐可選擇另外加價100元/人，我們會協助代買澎湖特色早餐。"
       />
       <QAItem
         question="有協助租借機車、汽車嗎？"
