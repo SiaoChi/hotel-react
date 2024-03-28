@@ -82,14 +82,14 @@ const Description = () => {
 export const Rooms = () =>{
   return (
     <>
-    <div id='rooms' className='max-w-screen-xl mx-auto mt-10 md:my-16'>
+    <div id='rooms' className='max-w-screen-xl mx-auto mt-10 md:my-16 fade-in-image'>
       <div className='md:flex mt-3 items-center justify-center md:mt-4'>
           <Square link='/rooms/1'  text ="雙人房（雙）‣" picture_path="/rooms/2-1/2-1-400x400.png" />
           <Square link='/rooms/4' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-400x400.png" />
           <Square link='/rooms/3' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-2-400x400.png" />
       </div>
-      <div className='md:flex mt-2  items-center justify-center '>
-          <Square link='/rooms/2' text ="雙人房（單）‣" picture_path="/rooms/2-2/2-2-1.png" />
+      <div className='md:flex mt-2  items-center justify-center fade-in-image'>
+          <Square link='/rooms/2' text ="雙人房（單）‣" picture_path="/rooms/2-2/2f-2-1.jpg" />
           <Square link='/rooms/5' text ="四人房（小）‣" picture_path="/rooms/4-S/4s-3.png" />
           <Square link='/rooms/6' text ="公共空間 ‣" picture_path="/rooms/living-2.png" />
       </div>
@@ -120,7 +120,7 @@ export const Info = () => {
 
 const Comments = () => {
   return (
-    <div className='mt-20 md:mx-auto md:w-[600px] px-4'>
+    <div className='mt-20 md:mx-auto md:w-[600px] px-4 fade-in-image'>
       <h3 className='text-2xl md:text-3xl tracking-wide font-serif font-bold text-center mb-5'>房客好評</h3>
       <p className='mb-4 md:text-lg text-center tracking-wider'>沒想到來到澎湖，也可以感受到家的溫暖！ 阿姨熱情招待，把旅客當成家人，滿桌水果、豐盛早餐…就是怕你餓到 舒適乾淨的房間，更讓我們一躺下就秒睡到隔天。 下次一定還要再來！</p>
       <div className="md:flex justify-center items-center md:space-x-4">

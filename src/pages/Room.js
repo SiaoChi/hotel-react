@@ -20,11 +20,11 @@ const RoomDescription = ({title, description}) => {
 const RoomSection = ({imgPath1,imgPath2,imgPath3}) =>{
   return (
     <>
-    <div id='rooms' className='max-w-screen-xl mx-auto mt-10 md:my-15 md:mt-18 mb-16'>
+    <div id='rooms' className='max-w-screen-xl mx-auto md:my-15 mb-4'>
       <div className='md:flex mt-3 items-center justify-center md:mt-4'>
-          <Square picture_path={imgPath1} />
-          <Square picture_path={imgPath2} />
-          <Square picture_path={imgPath3}/>
+          {imgPath1 && <Square picture_path={imgPath1} />}
+          {imgPath2 && <Square picture_path={imgPath2} />}
+          {imgPath3 && <Square picture_path={imgPath3} />}
       </div>
     </div>
     </>
@@ -47,6 +47,7 @@ const PageRoom1 = () =>{
        <HeroPic picture_path="/rooms/2-1/2-1.png" />
        <RoomDescription title="三樓雙人房型" description="雙人加大床、獨立衛浴、小陽台、小型桌椅、液晶電視、吹風機"/>
        <RoomSection imgPath1='/rooms/2-1/2-1-1.png' imgPath2='/rooms/2-1/2-1-400x400.png' imgPath3='/rooms/2-2/2-2-3.png' />
+        <RoomSection imgPath2='/rooms/2-1/2-1-3.png' imgPath1='/rooms/2-1/2-1-4.jpeg'  />
     </div>
         )
 }
@@ -78,7 +79,8 @@ const PageRoom2 = () =>{
     <div className="max-w-screen-2xl mx-auto mt-16">
         <HeroPic picture_path="/rooms/2-2/2-2-hero.png" />
         <RoomDescription title="二樓雙人房型" description="兩張單人床、獨立衛浴、小陽台、梳妝椅、液晶電視、吹風機"/>
-        <RoomSection imgPath1='/rooms/2-2/2-2-1.png' imgPath2='/rooms/2-2/2-2-4.png' imgPath3='/rooms/2-2/2-2-3.png' />
+        <RoomSection imgPath1='/rooms/2-2/2f-2-2.jpg' imgPath2='/rooms/2-2/2f-2-1.jpg' imgPath3='/rooms/2-2/2-2-4.png' />
+        <RoomSection imgPath1='/rooms/2-2/2-2-3.png' imgPath2='/rooms/2-2/2f-2-2-restroom.jpg' imgPath3='' />
     </div>
         )
 }
