@@ -47,7 +47,7 @@ const PageRoom1 = () =>{
        <HeroPic picture_path="/rooms/2-1/2-1.png" />
        <RoomDescription title="三樓雙人房型" description="雙人加大床、獨立衛浴、小陽台、小型桌椅、液晶電視、吹風機"/>
        <RoomSection imgPath1='/rooms/2-1/2-1-1.png' imgPath2='/rooms/2-1/2-1-400x400.png' imgPath3='/rooms/2-2/2-2-3.png' />
-        <RoomSection imgPath2='/rooms/2-1/2-1-3.png' imgPath1='/rooms/2-1/2-1-4.jpeg'  />
+        <RoomSection  imgPath1='/rooms/2-1/2-1-4.jpg'  imgPath2='/rooms/2-1/2-1-3.png' />
     </div>
         )
 }
