@@ -55,7 +55,7 @@ const Hero = () => {
     <div className="max-w-screen-2xl mx-auto mt-16">
       <Slider {...settings}>
        <HeroPic text="日式和室四人房" picture_path="rooms/4-L/4-lg-1.png" />
-       <HeroPic text="寬敞家庭四人房" picture_path="rooms/4-L/4-lg-2.png" />
+       <HeroPic text="豪華家庭四人房" picture_path="rooms/4-L/4-lg-2.png" />
        <HeroPic text="詠珍文旅 會再訪的旅宿" picture_path="rooms/lobby.png" />
        <HeroPic text="澎湖花火節 歡迎入住" picture_path="rooms/4-L/4-lg-1-1.png" />
       </Slider>
@@ -82,13 +82,13 @@ const Description = () => {
 export const Rooms = () =>{
   return (
     <>
-    <div id='rooms' className='max-w-screen-xl mx-auto mt-10 md:my-16 fade-in-image'>
+    <div id='rooms' className='max-w-screen-xl mx-auto mt-10 md:my-16'>
       <div className='md:flex mt-3 items-center justify-center md:mt-4'>
           <Square link='/rooms/1'  text ="雙人房（雙）‣" picture_path="/rooms/2-1/2-1-400x400.png" />
           <Square link='/rooms/4' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-400x400.png" />
           <Square link='/rooms/3' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-2-400x400.png" />
       </div>
-      <div className='md:flex mt-2  items-center justify-center fade-in-image'>
+      <div className='md:flex mt-2  items-center justify-center'>
           <Square link='/rooms/2' text ="雙人房（單）‣" picture_path="/rooms/2-2/2f-2-1.jpg" />
           <Square link='/rooms/5' text ="四人房（小）‣" picture_path="/rooms/4-S/4s-3.png" />
           <Square link='/rooms/6' text ="公共空間 ‣" picture_path="/rooms/living-2.png" />
