@@ -111,7 +111,7 @@ export const Info = () => {
       <InfoLi title="公共飲水機、冰箱、茶水"  />
       <InfoLi title="公共餐桌用餐區、客廳沙發區"  />
       <InfoLi title="全面禁菸"  />
-      <InfoLi title="不提供廚房使用"  />
+      <InfoLi title="不提供廚房、洗衣機使用"  />
     </div>
     </>
   );
@@ -169,7 +169,7 @@ export const QA = () => {
         question="有包套行程嗎？"
         answer="沒有，我們是純住宿的民宿，目前沒有提供包套行程喔。"
       />
-        <QAItem
+      <QAItem
           question="入住與退房時間？"
           answer="下午15:00時間可以入住、上午10:00退房。如有提早抵達澎湖，可以先提早寄放行李唷。"
         />
@@ -181,6 +181,7 @@ export const QA = () => {
         question="有協助租借機車、汽車嗎？"
         answer="有喔，我們有合作的租車公司，如果確認入住可以協助租借。"
       />
+
     </div>
   );
 }

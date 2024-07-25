@@ -2,15 +2,16 @@ import './App.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Home, QA, Contact ,Rooms } from'./pages/Home'
-import  { PageRoom1,PageRoom2,PageRoom3,PageRoom4,PageRoom5,PageRoom6 } from './pages/Room'
+import { Home, QA, Contact, Rooms } from './pages/Home';
+import { PageRoom1, PageRoom2, PageRoom3, PageRoom4, PageRoom5, PageRoom6 } from './pages/Room';
 import MenuBar from './components/MenuBar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop'; // 引入 ScrollToTop 組件
 
 export default function App() {
-
   return (
     <BrowserRouter>
+      <ScrollToTop /> {/* 在這裡使用 ScrollToTop 組件 */}
       <Routes>
         <Route path="/" element={<MenuBar />}>
           <Route index element={<Home />} />
@@ -25,7 +26,8 @@ export default function App() {
           <Route path="/qa" element={<QA />} />
         </Route>
       </Routes>
-       <Footer />
+      <Footer />
     </BrowserRouter>
   );
 }
+ 

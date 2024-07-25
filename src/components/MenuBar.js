@@ -18,9 +18,6 @@ const MenuBar = () => {
           <a href='/'><img className="w-36 md:w-48" src="/yongjen-logo.png" alt="Yong-Jen Logo"></img></a>
         </div>
 
-      
-
-
         <div className="hidden ml-16 md:flex mr-auto">
             <Link to="/" className="text-gray-700 mr-10 hover:text-brand_blue">首頁</Link>
             <Link to="/rooms" className="text-gray-700 mr-10 hover:text-brand_blue">房型</Link>
@@ -29,7 +26,7 @@ const MenuBar = () => {
         </div>
 
         <div className="flex items-center ml-auto">
-            <a href="https://www.facebook.com/profile.php?id=100086760594011" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2 fb-btn">
+            <a href="https://www.facebook.com/p/%E8%A9%A0%E7%8F%8D%E6%96%87%E6%97%85-100086760594011/?paipv=0&eav=AfaDBxYNStjHwju8lxtFlW_VmGuhisr35wiUregb43xhrw9ScpfbDBPoALmhk4ULcI0&_rdr" target="_blank"  rel="noopener noreferrer" className="text-black hover:text-brand_blue mr-2 fb-btn">
               <img className="w-8 md:w-10" src="/facebook.png" alt="FB Icon"></img>
             </a>
             <a  href="https://lin.ee/BPI4HRC" target="_blank" rel="noopener noreferrer" className="line-btn mr-3 text-black hover:text-brand_blue">
