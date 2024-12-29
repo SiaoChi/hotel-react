@@ -58,7 +58,7 @@ const PageRoom4 = () =>{
       <div className="max-w-screen-2xl mx-auto mt-16">
     <HeroPic picture_path="/rooms/4-L/4-lg-1.png" />
     <RoomDescription title="二樓四人房型" description="兩張單人床加大、一張雙人床加大、日式和室空間、獨立衛浴、小陽台、梳妝椅、液晶電視、吹風機"/>
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-8.jpg' imgPath2='/rooms/4-L/4-lg-1-9.jpg' imgPath3='/rooms/4-L/4-lg-1-10.jpg'/>
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-9.jpg' imgPath2='/rooms/4-L/4-lg-1-10.jpg' imgPath3='/rooms/4-L/4-lg-1-8.jpg'/>
     <RoomSection imgPath1='/rooms/4-L/4-lg-1-3.png' imgPath2='/rooms/4-L/4-lg-1-12.jpg' imgPath3='/rooms/4-L/4-lg-1-4.png' />
     <RoomSection imgPath1='/rooms/4-L/4-lg-1-11.jpg' imgPath2='/rooms/4-L/4-lg-1-6.jpg' imgPath3='/rooms/4-L/4-lg-1-5.jpg'  />
 </div>
