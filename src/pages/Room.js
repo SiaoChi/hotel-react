@@ -58,8 +58,9 @@ const PageRoom4 = () =>{
       <div className="max-w-screen-2xl mx-auto mt-16">
     <HeroPic picture_path="/rooms/4-L/4-lg-1.png" />
     <RoomDescription title="二樓四人房型" description="兩張單人床加大、一張雙人床加大、日式和室空間、獨立衛浴、小陽台、梳妝椅、液晶電視、吹風機"/>
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-3.png' imgPath2='/rooms/4-L/4-lg-1-7.png' imgPath3='/rooms/4-L/4-lg-1-4.png' />
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-2.png' imgPath2='/rooms/4-L/4-lg-1-6.jpg' imgPath3='/rooms/4-L/4-lg-1-5.jpg'  />
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-8.jpg' imgPath2='/rooms/4-L/4-lg-1-9.jpg' imgPath3='/rooms/4-L/4-lg-1-10.jpg'/>
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-3.png' imgPath2='/rooms/4-L/4-lg-1-12.jpg' imgPath3='/rooms/4-L/4-lg-1-4.png' />
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-11.jpg' imgPath2='/rooms/4-L/4-lg-1-6.jpg' imgPath3='/rooms/4-L/4-lg-1-5.jpg'  />
 </div>
     )
   }
@@ -69,6 +70,7 @@ const PageRoom3 = () =>{
     <div className="max-w-screen-2xl mx-auto mt-16">
        <HeroPic picture_path="/rooms/4-L/4-lg-2.png" />
        <RoomDescription title="三樓四人房型" description="兩張雙人床加大、獨立衛浴、小陽台、小桌子、長型椅、單人座椅、液晶電視、吹風機"/>
+       <RoomSection imgPath1='/rooms/4-L/4-lg-2-5.jpg' imgPath2='/rooms/4-L/4-lg-2-4.jpg' />
        <RoomSection imgPath1='/rooms/4-L/4-lg-2-400x400.png' imgPath2='/rooms/4-L/4-lg-2-2.png' imgPath3='/rooms/4-L/4-lg-2-3.png' />
     </div>
         )
@@ -100,8 +102,9 @@ const PageRoom6 = () =>{
     return (
     <div className="max-w-screen-2xl mx-auto mt-16">
        <HeroPic picture_path="/rooms/lobby.png" />
-       <RoomDescription title="公共空間" description="多人沙發區、公共用餐區、茶水區"/>
+       <RoomDescription title="公共空間" description="多人沙發區、公共用餐區、茶水區、免費咖啡茶包"/>
        <RoomSection imgPath1='/rooms/living-2.png' imgPath2='/rooms/living-3.png' imgPath3='/rooms/living-1.png' />
+       <RoomSection imgPath1='/rooms/living-4.jpg' imgPath2='/rooms/living-5.jpg' imgPath3='/rooms/living-6.jpg' />
     </div>
         )
 }
