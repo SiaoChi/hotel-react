@@ -86,7 +86,7 @@ export const Rooms = () =>{
       <div className='md:flex mt-3 items-center justify-center md:mt-4'>
           <Square link='/rooms/1'  text ="雙人房（雙）‣" picture_path="/rooms/2-1/2-1-400x400.png" />
           <Square link='/rooms/4' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-400x400.png" />
-          <Square link='/rooms/3' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-2-400x400.png" />
+          <Square link='/rooms/3' text ="四人房（大）‣" picture_path="/rooms/4-L/4-lg-2-6.jpg" />
       </div>
       <div className='md:flex mt-2  items-center justify-center'>
           <Square link='/rooms/2' text ="雙人房（單）‣" picture_path="/rooms/2-2/2f-2-1.jpg" />

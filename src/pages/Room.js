@@ -68,10 +68,10 @@ const PageRoom4 = () =>{
 const PageRoom3 = () =>{
   return (
     <div className="max-w-screen-2xl mx-auto mt-16">
-       <HeroPic picture_path="/rooms/4-L/4-lg-2.png" />
+       <HeroPic picture_path="/rooms/4-L/4-lg-1.jpg" />
        <RoomDescription title="三樓四人房型" description="兩張雙人床加大、獨立衛浴、小陽台、小桌子、長型椅、單人座椅、液晶電視、吹風機"/>
-       <RoomSection imgPath1='/rooms/4-L/4-lg-2-5.jpg' imgPath2='/rooms/4-L/4-lg-2-4.jpg' />
-       <RoomSection imgPath1='/rooms/4-L/4-lg-2-400x400.png' imgPath2='/rooms/4-L/4-lg-2-2.png' imgPath3='/rooms/4-L/4-lg-2-3.png' />
+       <RoomSection imgPath1='/rooms/4-L/4-lg-2-6.jpg' imgPath2='/rooms/4-L/4-lg-2-4.jpg' />
+       <RoomSection imgPath1='/rooms/4-L/4-lg-2-1.jpg' imgPath2='/rooms/4-L/4-lg-2-2.jpg' imgPath3='/rooms/4-L/4-lg-2-3.png' />
     </div>
         )
       }
