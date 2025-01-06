@@ -90,7 +90,7 @@ export const Rooms = () =>{
       </div>
       <div className='md:flex mt-2  items-center justify-center'>
           <Square link='/rooms/2' text ="雙人房（單）‣" picture_path="/rooms/2-2/2f-2-1.jpg" />
-          <Square link='/rooms/5' text ="四人房（小）‣" picture_path="/rooms/4-S/4s-3.png" />
+          <Square link='/rooms/5' text ="四人房（中）‣" picture_path="/rooms/4-S/4s-3.png" />
           <Square link='/rooms/6' text ="公共空間 ‣" picture_path="/rooms/living-2.png" />
       </div>
     </div>

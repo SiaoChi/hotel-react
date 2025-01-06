@@ -58,9 +58,9 @@ const PageRoom4 = () =>{
       <div className="max-w-screen-2xl mx-auto mt-16">
     <HeroPic picture_path="/rooms/4-L/4-lg-1.png" />
     <RoomDescription title="二樓四人房型" description="兩張單人床加大、一張雙人床加大、日式和室空間、獨立衛浴、小陽台、梳妝椅、液晶電視、吹風機"/>
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-9.jpg' imgPath2='/rooms/4-L/4-lg-1-10.jpg' imgPath3='/rooms/4-L/4-lg-1-8.jpg'/>
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-3.png' imgPath2='/rooms/4-L/4-lg-1-12.jpg' imgPath3='/rooms/4-L/4-lg-1-4.png' />
-    <RoomSection imgPath1='/rooms/4-L/4-lg-1-11.jpg' imgPath2='/rooms/4-L/4-lg-1-6.jpg' imgPath3='/rooms/4-L/4-lg-1-5.jpg'  />
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-11.jpg' imgPath2='/rooms/4-L/4-lg-1-4.jpg' imgPath3='/rooms/4-L/4-lg-1-8.jpg'/>
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-9.jpg' imgPath2='/rooms/4-L/4-lg-1-10.jpg' imgPath3='/rooms/4-L/4-lg-1-12.jpg' />
+    <RoomSection imgPath1='/rooms/4-L/4-lg-1-3.png' imgPath2='/rooms/4-L/4-lg-1-6.jpg' imgPath3='/rooms/4-L/4-lg-1-5.jpg'  />
 </div>
     )
   }
@@ -70,8 +70,9 @@ const PageRoom3 = () =>{
     <div className="max-w-screen-2xl mx-auto mt-16">
        <HeroPic picture_path="/rooms/4-L/4-lg-1.jpg" />
        <RoomDescription title="三樓四人房型" description="兩張雙人床加大、獨立衛浴、小陽台、小桌子、長型椅、單人座椅、液晶電視、吹風機"/>
-       <RoomSection imgPath1='/rooms/4-L/4-lg-2-6.jpg' imgPath2='/rooms/4-L/4-lg-2-4.jpg' />
-       <RoomSection imgPath1='/rooms/4-L/4-lg-2-1.jpg' imgPath2='/rooms/4-L/4-lg-2-2.jpg' imgPath3='/rooms/4-L/4-lg-2-3.png' />
+       <RoomSection imgPath1='/rooms/4-L/4-lg-2-7.jpg' imgPath2='/rooms/4-L/4-lg-2-8.jpg' imgPath3='/rooms/4-L/4-lg-2-9.jpg'/>
+       <RoomSection imgPath1='/rooms/4-L/4-lg-2-1.jpg' imgPath2='/rooms/4-L/4-lg-2-4.jpg' imgPath3='/rooms/4-L/4-lg-2-3.png' />
+       <RoomSection  imgPath2='/rooms/4-L/4-lg-2-2.jpg' imgPath3='/rooms/4-L/4-lg-2-10.jpg'/>
     </div>
         )
       }
@@ -91,9 +92,10 @@ const PageRoom2 = () =>{
 const PageRoom5 = () =>{
         return (
     <div className="max-w-screen-2xl mx-auto mt-16">
-       <HeroPic picture_path="/rooms/4-S/4s-hero.png" />
-       <RoomDescription title="四人房小型" description="兩張雙人床加大、獨立衛浴、小陽台、日式坐墊、液晶電視、吹風機"/>
-       <RoomSection imgPath1='/rooms/4-S/4s-2.png' imgPath2='/rooms/4-S/4s-3.png' imgPath3='/rooms/4-S/4s-1.png' />
+       <HeroPic picture_path="/rooms/4-S/4s-hero.jpg" />
+       <RoomDescription title="四人房中型" description="兩張雙人床加大、獨立衛浴、小陽台、日式坐墊、液晶電視、吹風機"/>
+       <RoomSection imgPath1='/rooms/4-S/4s-7.jpg'   imgPath2='/rooms/4-S/4s-6.jpg' imgPath3='/rooms/4-S/4s-3.png'/>
+       <RoomSection imgPath1='/rooms/4-S/4s-1.png' imgPath2='/rooms/4-S/4s-2.png' imgPath3='/rooms/4-S/4s-5.jpg' />
     </div>
         )
 }
